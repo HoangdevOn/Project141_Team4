@@ -1,5 +1,11 @@
-/* * {
-  width: 1920px;
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0 auto;
 } */
 
 header.container {
@@ -427,4 +433,33 @@ section .element-widget-container_ipad {
   font-style: normal;
   font-weight: 500;
   line-height: 19px;
+}
+
+/* Dich vu cho Watch va Airpod */
+
+.container-col2-mid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.container-col2-mid .container-col1 {
+  padding: 25px 0px 29.09px 0px;
+  flex-direction: column;
+  border-radius: 15px;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #fff 0%, #e2d4cb 100%);
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.08);
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.container-col2-mid .container-col2 {
+  padding: 25px 0px 29.09px 0px;
+  flex-direction: column;
+  border-radius: 15px;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #fff 0%, #e2d4cb 100%);
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.08);
+  align-items: flex-start;
+  flex: 1 0 0;
 }
