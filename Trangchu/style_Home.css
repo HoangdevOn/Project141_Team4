@@ -1,6 +1,14 @@
+/* * {
+  width: 1920px;
+} */
+
 header.container {
   background-color: #ffffff;
   padding: 10px 412px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section {
@@ -85,6 +93,7 @@ header.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 /* .content-page .element-content .element-slide {
@@ -142,6 +151,12 @@ section.element-top.element-slide.element-row {
 
 /* video */
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 section.element-content-item2.element-row.element-col-2rows {
   width: 100%;
   height: 100%;
@@ -178,9 +193,14 @@ section.element-content-item2.element-row.element-col-2rows {
 }
 
 .element-row.element-paragraph {
-  width: 640px;
+  width: 1028px;
   height: 360px;
   align-items: center;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
 }
 
 .p {
@@ -211,4 +231,200 @@ section.element-content-item2.element-row.element-col-2rows {
   color: #000000;
   line-height: 1.5;
   margin: 0 20px;
+}
+
+/* Certificate */
+
+.element-col2-gap {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.element-col2-gap .element-col-right .element-colR-address ul {
+  list-style: none;
+}
+
+.item-widget-bottom {
+  background-color: #010042;
+  color: #fff;
+  border-radius: 20px;
+  width: 500px;
+}
+
+section .element-certi-col4 {
+  display: flex;
+  column-gap: 30px;
+  text-align: center;
+}
+
+section .element-certi-col4 .item-certi-col4 {
+  background-color: #010042;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.element-widget-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+/* Dich vu trung tam */
+section .element-widget-wrap-row4 {
+  color: #fff;
+  width: 1890px;
+  padding: 30px 375px;
+
+  border-radius: 20px;
+  background: #000;
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.08);
+}
+
+section .element-widget-wrap-row4 .element-widget-image {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(70.71% 70.71% at 50% 50%, #e087ed 0%, #000 60%);
+}
+
+section .element-widget-wrap-row4 .element-heading-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.element-widget-wrap-row4 .element-desc-heading {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.element-widget-wrap-row4 .element-widget-paragraph {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.element-widget-wrap-row4 .element-button {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px; /* 111.765% */
+}
+/* Dich vu mac */
+section .element-widget-container_mac {
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #ccc;
+  border-radius: 15px;
+  background: linear-gradient(196deg, #d670a8 0%, #291252 100%);
+}
+
+section .element-widget-container_mac .element-button {
+  background-color: #ffffff;
+  color: #ba2eba;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section .element-widget-container_mac .element-widget-image {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+section .element-widget-container_mac .element-title-h2 {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+}
+section .element-widget-container_mac .element-desc-heading_mac {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 14px 0px;
+}
+
+/* Dịch vụ ipad */
+
+section .element-widget-container_ipad {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background: linear-gradient(191deg, #e5c6dd 0%, #eb8b71 100%);
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 1140px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.element-widget-container_ipad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.element-col1-image {
+  width: 550px;
+  height: 380px;
+  border-radius: 5px;
+}
+
+.element-widget-container_ipad .element-col2-desc {
+  /* width: calc(100% - 200px); */
+  width: 570px;
+  height: 397.72px;
+  text-align: center;
+}
+
+.element-col2-desc #DICH_VU_IPAD {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+.element-col2-desc .element-desc-heading {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px; /* 180% */
+}
+.element-col2-desc .element-button {
+  display: flex;
+  padding: 12px 23.94px 12px 24px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 25px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
 }
