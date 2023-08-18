@@ -277,7 +277,7 @@ section .element-certi-col4 .item-certi-col4 {
 /* Dich vu trung tam */
 section .element-widget-wrap-row4 {
   color: #fff;
-  width: 1890px;
+  max-width: 100%;
   padding: 30px 375px;
 
   border-radius: 20px;
@@ -461,5 +461,5 @@ section .element-widget-container_ipad {
   background: radial-gradient(70.71% 70.71% at 50% 50%, #fff 0%, #e2d4cb 100%);
   box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.07);
   align-items: flex-start;
-  flex: 1 0 0;
+  flex: 0 0 1;
 }
