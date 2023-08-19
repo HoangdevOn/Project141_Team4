@@ -454,15 +454,115 @@ section .element-widget-container_ipad {
   flex: 1 0 0;
 }
 
-.container-col2-mid .container-col2 {
+.container-col2-mid .container-col1 .item-img_L {
   display: flex;
-  padding: 25px 0px;
-  flex: 1 0 0;
   width: 562.5px;
+  padding: 0px 15px 22.39px 15px;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+}
+
+.container-col2-mid .container-col1 .item-content_L {
+  color: #212529;
+  text-align: center;
+}
+
+.container-col2-mid .container-col1 .item-content_L {
+  background-color: #000;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 24px;
+  align-self: center;
+}
+
+.container-col2-mid .container-col1 .item-content_L .element-desc-L {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.container-col2-mid .container-col2 {
+  display: flex;
+  padding: 25px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
   border-radius: 15px;
   background: radial-gradient(70.71% 70.71% at 50% 50%, #fff 0%, #ded5d5 100%);
   box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.08);
+}
+
+.container-col2-mid .container-col2 .item-img_R {
+  display: flex;
+  width: 562.5px;
+  padding: 0px 146.92px 22.39px 146.58px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-col2-mid .container-col2 .item-content_R {
+  background-color: #000;
+  border-radius: 25px;
+  color: white;
+  padding: 12px 24px;
+  align-self: center;
+}
+
+.container-col2-mid .container-col2 .item-img_R .element-heading-title_R {
+  color: #212529;
+  text-align: center;
+  font-size: 28px;
+}
+
+.container-heading-top {
+  display: flex;
+  width: 1140px;
+  padding: 0px 367.09px 40px 366.91px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container-head-phukien {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container-head-phukien .container-heading-top {
+  text-align: center;
+}
+
+.container-head-phukien .container-heading-top .heading-title-mid {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-head-phukien .container-phukien {
+  display: flex;
+  display: flex;
+  width: 1140px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 45px 35px;
+}
+
+.container-head-phukien .container-phukien .grid-item-phukien {
+  display: inline-block;
+  width: 200px;
+  padding: 65.06px 16px 16px 16px;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #d2d2d7;
+}
+
+.container-head-phukien
+  .container-phukien
+  .grid-item-phukien
+  .img-grid-phukien {
+  width: 120px;
+  height: 120px;
+  background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 }
