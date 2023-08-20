@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #dichvuiphone {
   display: flex;
@@ -14,8 +14,8 @@
   align-items: center;
 }
 .container .container_mot img {
-  width: 1150px;
-  height: 600px;
+  width: 100%;
+  height: 680px;
   margin-bottom: 20px;
 }
 .container .container_hai {
@@ -107,4 +107,32 @@
   gap: 0px;
   box-shadow: 0 0 0 1px black;
   height: 35px;
+}
+@media only screen and (max-width: 1000px) {
+  .container .container_mot img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .container .container_mot img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container .container_mot img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container .container_mot img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
 }
