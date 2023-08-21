@@ -8,8 +8,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .container .container_mot {
   width: 100%;
@@ -95,4 +95,32 @@
 }
 .container .container_ba_muoi img {
   width: 110px;
+}
+@media only screen and (max-width: 1350px) {
+  .container .container_ba {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .container .container_ba {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container .container_ba {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .container .container_ba {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
 }
